@@ -1,0 +1,7 @@
+{
+  "name": "costdivision",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
