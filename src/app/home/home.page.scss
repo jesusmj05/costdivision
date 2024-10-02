@@ -31,4 +31,32 @@ body {
 
 }
 
+#titulo{
+  display: flex; justify-content: center; align-items: center;
+  margin-top: 50px;margin-bottom: -10px; background-color: #18E46F;
+}
 
+p{
+  font-size: 60px; font-family: 'Jockey One', sans-serif ;
+  color: #defcec; padding-bottom: -80px;
+}
+
+div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #18E46F;
+  height: 350px;
+}
+
+ion-card{
+  width: 350px;
+  font-family: 'Jockey One', sans-serif ;
+
+}
+
+.scroll-container {
+  max-height: 80vh; /* O el tamaño que prefieras */
+  overflow-y: scroll; /* Habilita el scroll vertical */
+}
