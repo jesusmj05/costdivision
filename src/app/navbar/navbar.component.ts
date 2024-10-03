@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import {IonicModule} from "@ionic/angular";
+import {addIcons} from "ionicons";
+import {personCircleOutline, settingsOutline} from "ionicons/icons";
 
 @Component({
   selector: 'app-navbar',
@@ -12,7 +14,9 @@ import {IonicModule} from "@ionic/angular";
 })
 export class NavbarComponent   {
 
-  constructor() { }
+  constructor() {
+    addIcons({settingsOutline})
+  }
 
 
 

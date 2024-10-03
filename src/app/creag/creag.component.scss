@@ -1,5 +1,21 @@
-ion-card{
-  width: 350px;
-  font-family: 'Jockey One', sans-serif ;
+ion-list {
+  margin-top: 250px;
+  background-color: #18E46F;
 }
 
+*{
+  font-family: 'Jockey One', sans-serif;
+}
+
+div{
+  margin-left: 150px;
+}
+
+ion-input {
+  color: #defcec;
+  background-color: #18E46F;
+}
+
+body {
+  background-color: #18E46F;
+}
